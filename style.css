@@ -1,0 +1,84 @@
+.Jumbotron{
+    width: 500px;
+    
+    
+}
+.Jumbotron-img{
+    height: 500px;
+    width: 500px;
+}
+.jum-img{
+    height: 500px;
+    width: 500px;
+}
+.sub-main{
+    margin-top: 100px;
+}
+
+/* card */
+.box{
+    background-color: black;
+    height: 200px;
+    /* padding: 50px; */
+    margin-top: -150px;
+}
+/* card */
+
+/* thumb */
+.thumb{
+    height: 500px;
+    color: aliceblue;
+    margin-top: 50px;
+}
+.icon-thumb{
+  color: white;
+}
+
+
+/* thumb */
+
+/* hypen */
+
+.hypen-heading{
+font-weight: 600;
+font-size: 60px;
+}
+.hypen-text{
+
+}
+/* hypen */
+
+/* demo */
+.demo{
+    background-color: rgb(147 16 16);
+}
+.demo h1{
+    word-spacing: 10px;
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+}
+.demo p{
+    
+
+}
+/* demo */
+
+/* eventcards */
+.event-card{
+    position: relative;
+}
+.Mix{
+    background-color: black;
+    height: 537px !important;
+    width: 358px !important;
+   text-align: center;
+}
+.card-text{
+    position: absolute;
+    color: aliceblue;
+    
+}
+
+/* eventcards */
+
