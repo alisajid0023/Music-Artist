@@ -1,3 +1,48 @@
+
+/* navbar */
+@media screen and (max-width:746px) {
+    .navbar{
+        width: 87% ;
+    
+    }
+}
+/* navbar */
+
+/* backgroundimage */
+.background-image{
+    background-image: url('bg.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 100%;
+    top: 0px;
+}
+.bg-heading{
+    font-size: 3.5rem;
+    
+}
+
+@media screen and (max-width:746px) {
+    .bg-heading{
+     font-size: 2.5rem;
+     text-align: center;
+    
+    }
+}
+
+
+/* backgroundimage */
+
+
+.jum-image{
+    background-image: url('ralph-darabos-1k22UwRg95g-unsplash.jpg');
+  height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
 .Jumbotron{
     width: 500px;
     
@@ -13,7 +58,34 @@
 }
 .sub-main{
     margin-top: 100px;
+
 }
+@media screen and (max-width:746px) {
+    .jum-img{
+        width: 72%;
+        height: 250px;
+    
+    }
+    .sub-main{
+        display: flex;
+        flex-direction: column;
+    }
+    #about{
+        display: block;
+        text-align: center;
+    }
+.jum-p{
+    width: 335px;
+    height: 342px;
+    text-align: center;
+    margin-left: 88px;
+}
+
+}
+
+
+
+
 
 /* card */
 .box{
@@ -22,6 +94,19 @@
     /* padding: 50px; */
     margin-top: -150px;
 }
+@media screen and (max-width:746px) {
+    .box{
+   
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+        top: 20;
+        position: relative;
+        top: 67px;
+        width: 361px;
+       }  
+   }
+   
 /* card */
 
 /* thumb */
@@ -33,7 +118,21 @@
 .icon-thumb{
   color: white;
 }
-
+@media screen and (max-width:746px) {
+    .img-2{
+        width: 360px;
+    height: 240px;
+    }
+    .thumb{
+        display: flex;
+        flex-direction: column
+    }
+    .text{
+        font-size: 11px;
+        margin-top: 27px;
+    }
+    }
+    
 
 /* thumb */
 
@@ -42,10 +141,20 @@
 .hypen-heading{
 font-weight: 600;
 font-size: 60px;
-}
-.hypen-text{
 
 }
+
+@media screen and (max-width:746px) {
+    .hypen-heading{
+        font-size: 25px;
+
+    }
+    .hypen-text{
+        font-size: 15px;
+    }
+    
+}
+
 /* hypen */
 
 /* demo */
@@ -57,11 +166,19 @@ font-size: 60px;
     font-size: 60px;
     font-weight: 600;
     color: white;
-}
-.demo p{
-    
 
 }
+
+@media screen and (max-width:746px) {
+    .vedio-img{
+        width: 300px;
+    }
+    .demo h1{
+        font-size: 25px;
+    }
+    
+}
+
 /* demo */
 
 /* eventcards */
@@ -80,5 +197,110 @@ font-size: 60px;
     
 }
 
+@media screen and (max-width:746px) {
+    .event-cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .demo h1{
+        font-size: 25px;
+    }
+    .Mix{
+        width: 280px !important;
+        height: 421px !important;
+        text-align: center !important;
+    }
+    
+}
+
 /* eventcards */
 
+/* upcoming-event */
+.upcoming-event{
+    flex-direction: column;
+    background-color: rgb(169, 33, 33)!important;
+
+}
+.Tickets{
+  
+    border: 5px solid black;
+    background-color: red;
+    box-shadow: 2px 2px 0px black;
+}
+.Tickets:hover{
+    background-color: rgb(155, 31, 31) !important;
+}
+
+@media screen and (max-width:746px) {
+    .upcoming-event-1{
+        display: flex !important;
+    flex-direction: column;
+    }
+    .form{
+        display: none;
+    }
+
+}
+
+.form{
+
+    margin: 0 auto;
+    width: 600px;
+    
+}
+.form-comment{
+    padding: 10px;
+    height: 100px;
+    width: 600px;
+}
+.form-name{
+    height: 50px;
+    width: 600px;
+}
+.first-name{
+    height: 50px;
+    width: 300px;
+    padding: 10px;
+}
+.last-name{
+    height: 50px;
+    width: 295px;
+    padding: 10px;
+}
+.submit{
+    width: 600px;
+    background: black;
+    padding: 10px;
+    color: aliceblue;
+    border: none;
+}
+.submit:hover{
+    background-color: red;
+}
+
+
+/* upcoming-event */
+
+/* footer */
+
+.footer-img{
+    background-image: url('https://mobirise.com/extensions/temperm5/music-artist/assets/images/image6.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 100%;
+    top: 0px;
+    
+}
+.footer-main{
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.footer-icon i{
+    cursor: pointer;
+}
+
+/* footer */
